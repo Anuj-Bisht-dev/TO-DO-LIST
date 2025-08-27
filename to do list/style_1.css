@@ -130,31 +130,8 @@ body {
   font-size: 25px;
   border-radius: 10px;
   font-weight: bold;
-}
-#time::before {
-  content: '';
-  background: linear-gradient(20deg, red, blue, purple, rgb(255, 89, 0));
-  position: absolute;
-  top: 62px;
-  right: 342px;
-  z-index: -1;
-  width: 164px;
-  height: 48px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(225, 0, 0, 0.6);
-  animation: glow ease-in-out 1s infinite;
-}
-
-@keyframes glow {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-  100% {
-    filter: hue-rotate(360deg);
-  }
-  0% {
-    filter: hue-rotate(0deg);
-  }
+    border: 2px solid rgb(33, 33, 239);
+  box-shadow: 0 0 20px blueviolet;
 }
 
 #date {
