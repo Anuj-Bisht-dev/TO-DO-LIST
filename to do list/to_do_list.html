@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TO DO LIST</title>
+    <link href="style_1.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="top_section">
+        <section class="to_do_section">TO DO LIST</section>
+    </div>
+
+    <div id="main">
+        <div id="left_side">
+            <div id="uppermost_container">
+                <div class="container">
+
+                    <div id="upper_section">
+                        <input type="text" id="context">
+
+                        <div class="insert_option">
+                            <button class="upper_btn1">
+                                <img src="./image/tick.png" alt="image" width="17px" height="15px">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="lower_output_container">
+                        <div class="lower_output"></div>
+                    </div>
+                    <div class="clear">
+                        <button class="clear_btn">clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="right_side">
+            <div id="time">
+            </div>
+            <div id="date">
+            </div>
+            <div id="google_search">
+                <div class="google"><img src="./image/google.png" alt="google" width="20px"></div>
+                <textarea id="type_something" placeholder="type anything and press Enter to search"
+                    cols="40"></textarea>
+                <button id="search"><img src="./image/search-button.jpg" alt="search" width="20px"
+                        height="20px"></button>
+            </div>
+            <div id="quick_links">
+                <div class="quick_links_text">
+                    Quick Links
+                </div>
+                <div id="quick_links_icons">
+                    <a href="https://www.github.com" target="_blank">
+                        <img src="./image/github.jpg" alt="github" width="30px" height="30px">
+                    </a>
+                    <a href="https://calendar.google.com/calendar" target="_blank">
+                        <img src="./image/Google-Calendar.png" alt="Google-Calendar" width="35px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./image/insta.png" alt="insta" width="25px" height="25px">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img src="./image/google.png" alt="google" width="25px" height="25px">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="./image/linkedin.png" alt="linkedin" width="30px" height="30px">
+                    </a>
+                </div>
+            </div>
+            <div id="motivation">
+            </div>
+            <div id="todays_goal">
+                <div class="todays_goal_text">
+                    Today's Goal :
+                </div>
+                <textarea id="todays_goal_textarea" rows="1"></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="glow_box"></div>
+</body>
+<script src="script.js"></script>
+
+</html>
